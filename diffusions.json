@@ -1,0 +1,1793 @@
+{
+ "maj": "2026-11-14",
+ "genere_le": "2026-11-14 07:10",
+ "reseaux": [
+  "youtube",
+  "tiktok",
+  "instagram",
+  "facebook"
+ ],
+ "stats": {
+  "youtube": {
+   "publie": 0,
+   "a_faire": 73,
+   "suivi": 73,
+   "non_suivi": 0,
+   "vues": 0
+  },
+  "tiktok": {
+   "publie": 67,
+   "a_faire": 6,
+   "suivi": 73,
+   "non_suivi": 0
+  },
+  "instagram": {
+   "publie": 64,
+   "a_faire": 9,
+   "suivi": 73,
+   "non_suivi": 0
+  },
+  "facebook": {
+   "publie": 0,
+   "a_faire": 0,
+   "suivi": 0,
+   "non_suivi": 73
+  }
+ },
+ "changements": {
+  "depuis": "2026-11-13 07:10",
+  "nouvelles_publications": [],
+  "nouvelles_videos": []
+ },
+ "lignes": [
+  {
+   "serie": "ambiances",
+   "series_nom": "La France en ambiances",
+   "titre": "Bretagne — verticale 76 s (prête, pas diffusée)",
+   "duree_s": 76,
+   "region": "Bretagne",
+   "type": "verticale longue",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "a_faire"
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "ambiances",
+   "series_nom": "La France en ambiances",
+   "titre": "Camargue — verticale 76 s (prête, pas diffusée)",
+   "duree_s": 76,
+   "region": "Camargue",
+   "type": "verticale longue",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "a_faire"
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "ambiances",
+   "series_nom": "La France en ambiances",
+   "titre": "Cévennes — verticale 76 s (prête, pas diffusée)",
+   "duree_s": 76,
+   "region": "Cévennes",
+   "type": "verticale longue",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "a_faire"
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "ambiances",
+   "series_nom": "La France en ambiances",
+   "titre": "Jura — verticale 76 s (prête, pas diffusée)",
+   "duree_s": 76,
+   "region": "Jura",
+   "type": "verticale longue",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "a_faire"
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "ambiances",
+   "series_nom": "La France en ambiances",
+   "titre": "Verdon — verticale 76 s (prête, pas diffusée)",
+   "duree_s": 76,
+   "region": "Verdon",
+   "type": "verticale longue",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "a_faire"
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "ambiances",
+   "series_nom": "La France en ambiances",
+   "titre": "Vosges — verticale 76 s (prête, pas diffusée)",
+   "duree_s": 76,
+   "region": "Vosges",
+   "type": "verticale longue",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "a_faire"
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 01 - Nancy",
+   "duree_s": null,
+   "episode": 1,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 02 - Dijon",
+   "duree_s": null,
+   "episode": 2,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 03 - Lyon",
+   "duree_s": null,
+   "episode": 3,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 04 - Grenoble",
+   "duree_s": null,
+   "episode": 4,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 05 - Valence",
+   "duree_s": null,
+   "episode": 5,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 06 - Avignon",
+   "duree_s": null,
+   "episode": 6,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 07 - Nîmes",
+   "duree_s": null,
+   "episode": 7,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 08 - Montpellier",
+   "duree_s": null,
+   "episode": 8,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 09 - Toulouse",
+   "duree_s": null,
+   "episode": 9,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 10 - Bordeaux",
+   "duree_s": null,
+   "episode": 10,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 11 - Limoges",
+   "duree_s": null,
+   "episode": 11,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 12 - Clermont-Ferrand",
+   "duree_s": null,
+   "episode": 12,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 13 - Bourges",
+   "duree_s": null,
+   "episode": 13,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 14 - Orléans",
+   "duree_s": null,
+   "episode": 14,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 15 - Tours",
+   "duree_s": null,
+   "episode": 15,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 16 - Angers",
+   "duree_s": null,
+   "episode": 16,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 17 - Nantes",
+   "duree_s": null,
+   "episode": 17,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 18 - Rennes",
+   "duree_s": null,
+   "episode": 18,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 19 - Caen",
+   "duree_s": null,
+   "episode": 19,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 20 - Rouen",
+   "duree_s": null,
+   "episode": 20,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 21 - Amiens",
+   "duree_s": null,
+   "episode": 21,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 22 - Lille",
+   "duree_s": null,
+   "episode": 22,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 23 - Châlons",
+   "duree_s": null,
+   "episode": 23,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 24 - Troyes",
+   "duree_s": null,
+   "episode": 24,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 25 - Sens",
+   "duree_s": null,
+   "episode": 25,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 26 - Melun",
+   "duree_s": null,
+   "episode": 26,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 27 - Paris",
+   "duree_s": null,
+   "episode": 27,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 28 - Versailles",
+   "duree_s": null,
+   "episode": 28,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 29 - Évry",
+   "duree_s": null,
+   "episode": 29,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 30 - Nanterre",
+   "duree_s": null,
+   "episode": 30,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 31 - Bobigny",
+   "duree_s": null,
+   "episode": 31,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 32 - Créteil",
+   "duree_s": null,
+   "episode": 32,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 33 - Cergy",
+   "duree_s": null,
+   "episode": 33,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 34 - Reims",
+   "duree_s": null,
+   "episode": 34,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 35 - Auxerre",
+   "duree_s": null,
+   "episode": 35,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 36 - Chaumont",
+   "duree_s": null,
+   "episode": 36,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 37 - Bar-le-Duc",
+   "duree_s": null,
+   "episode": 37,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 38 - Épinal",
+   "duree_s": null,
+   "episode": 38,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 39 - Colmar",
+   "duree_s": null,
+   "episode": 39,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 40 - Strasbourg",
+   "duree_s": null,
+   "episode": 40,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 41 - Metz",
+   "duree_s": null,
+   "episode": 41,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 42 - Charleville-Mézières",
+   "duree_s": null,
+   "episode": 42,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 43 - Laon",
+   "duree_s": null,
+   "episode": 43,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 44 - Beauvais",
+   "duree_s": null,
+   "episode": 44,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 45 - Évreux",
+   "duree_s": null,
+   "episode": 45,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 46 - Alençon",
+   "duree_s": null,
+   "episode": 46,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 47 - Chartres",
+   "duree_s": null,
+   "episode": 47,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 48 - Blois",
+   "duree_s": null,
+   "episode": 48,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 49 - Châteauroux",
+   "duree_s": null,
+   "episode": 49,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 50 - Guéret",
+   "duree_s": null,
+   "episode": 50,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 51 - Angoulême",
+   "duree_s": null,
+   "episode": 51,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 52 - Périgueux",
+   "duree_s": null,
+   "episode": 52,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 53 - Agen",
+   "duree_s": null,
+   "episode": 53,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 54 - Cahors",
+   "duree_s": null,
+   "episode": 54,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "chloe",
+   "series_nom": "Chloé la Fraise",
+   "titre": "Chloé la Fraise - Épisode 55 - Albi",
+   "duree_s": null,
+   "episode": 55,
+   "type": "episode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "a_faire"
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 1 - Le Sirop Disparu",
+   "duree_s": null,
+   "episode": 1,
+   "saison": 1,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 2 - La Piste de la Mini-Voiture",
+   "duree_s": null,
+   "episode": 2,
+   "saison": 1,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 3 - Le Mystère de la Serre",
+   "duree_s": null,
+   "episode": 3,
+   "saison": 1,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 4 - Le Choix de Farah",
+   "duree_s": null,
+   "episode": 4,
+   "saison": 1,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 5 - La Goutte de Joie",
+   "duree_s": null,
+   "episode": 5,
+   "saison": 1,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 6 - La Fête des Lumières",
+   "duree_s": null,
+   "episode": 6,
+   "saison": 1,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 1 - Le Dragon de la Bouteille (S2)",
+   "duree_s": null,
+   "episode": 1,
+   "saison": 2,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 2 - Cap sur l'Île aux Brumes (S2)",
+   "duree_s": null,
+   "episode": 2,
+   "saison": 2,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 3 - Le Dragon-Fruit (S2)",
+   "duree_s": null,
+   "episode": 3,
+   "saison": 2,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille - Episode 4 - Le Secret du Phare (S2)",
+   "duree_s": null,
+   "episode": 4,
+   "saison": 2,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille S2 - Episode 5 - La Peur des Autres (75s)",
+   "duree_s": null,
+   "episode": 5,
+   "saison": 2,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  },
+  {
+   "serie": "fruitville",
+   "series_nom": "FruitVille",
+   "titre": "FruitVille S2 - Episode 6 - Quand l'Ile S'illumine",
+   "duree_s": null,
+   "episode": 6,
+   "saison": 2,
+   "type": "épisode (absent de YouTube)",
+   "reseaux": {
+    "youtube": {
+     "etat": "a_faire"
+    },
+    "tiktok": {
+     "etat": "publie",
+     "date": null
+    },
+    "instagram": {
+     "etat": "publie",
+     "date": null
+    },
+    "facebook": {
+     "etat": "non_suivi"
+    }
+   }
+  }
+ ]
+}

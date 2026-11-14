@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diffusions — où en est chaque vidéo</title>
+<style>
+  :root{
+    --fond:#0f1115; --carte:#171a21; --carte2:#1e222b; --bord:#2a2f3a;
+    --texte:#e8eaee; --doux:#9aa3b2; --accent:#79c0ff;
+    --vert:#2f9e63; --vert-clair:#1d3a2b; --ambre:#c98a2b; --ambre-clair:#3a2f18;
+    --gris:#3a4050;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fond);color:var(--texte);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  header{padding:34px 28px 20px}
+  h1{margin:0 0 6px;font-size:30px;letter-spacing:-.02em}
+  .sous{color:var(--doux);margin:0;max-width:70ch}
+  .maj{color:var(--doux);font-size:13px;margin-top:10px}
+  .neuf{margin-top:12px;background:var(--carte);border:1px solid var(--bord);
+    border-left:3px solid var(--accent);border-radius:10px;padding:12px 16px;font-size:14px}
+  .neuf b{font-weight:600}
+  .neuf ul{margin:6px 0 0 18px;padding:0;color:var(--doux)}
+  .neuf li{margin:2px 0}
+  main{padding:0 28px 60px;max-width:1500px}
+  .cartes{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:22px 0}
+  .carte{background:var(--carte);border:1px solid var(--bord);border-radius:14px;padding:16px 18px}
+  .carte .nom{color:var(--doux);font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+  .carte .gros{font-size:28px;font-weight:600;margin:6px 0 2px;font-variant-numeric:tabular-nums}
+  .carte .petit{color:var(--doux);font-size:13px}
+  .barre{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 16px}
+  .puce{border:1px solid var(--bord);background:var(--carte);color:var(--texte);
+    border-radius:999px;padding:7px 15px;font-size:14px;cursor:pointer}
+  .puce[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#0b1420;font-weight:600}
+  .legende{color:var(--doux);font-size:13px;margin-left:auto}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  thead th{position:sticky;top:0;background:var(--fond);text-align:left;color:var(--doux);
+    font-weight:500;font-size:13px;text-transform:uppercase;letter-spacing:.06em;
+    padding:12px 10px;border-bottom:1px solid var(--bord);z-index:2}
+  tbody td{padding:11px 10px;border-bottom:1px solid #1e222b;vertical-align:middle}
+  tbody tr:hover{background:#141821}
+  .titre{max-width:520px}
+  .titre b{font-weight:600}
+  .serie{color:var(--doux);font-size:12px;display:block;margin-top:2px}
+  .duree{color:var(--doux);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .cell{white-space:nowrap}
+  .ok{color:var(--vert)}
+  .ok .date{color:var(--doux)}
+  .ok .vues{color:var(--doux);font-variant-numeric:tabular-nums}
+  .badge{display:inline-block;border-radius:6px;padding:3px 9px;font-size:12.5px;font-weight:600}
+  .badge.faire{background:var(--ambre-clair);color:#e7b25d;border:1px solid #4a3a1c}
+  .badge.inconnu{background:transparent;color:var(--doux);border:1px dashed var(--gris)}
+  .rien{color:#4d5566}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .pied{color:var(--doux);font-size:12.5px;line-height:1.7;margin-top:26px;
+    border-top:1px solid var(--bord);padding-top:16px;max-width:95ch}
+  @media(max-width:760px){
+    header{padding:24px 16px 14px} main{padding:0 16px 40px}
+    /* le tableau devient une pile de cartes : plus rien ne dépasse en largeur */
+    table,tbody,tr,td{display:block;width:100%}
+    thead{display:none}
+    tbody tr{border:1px solid var(--bord);border-radius:12px;background:var(--carte);
+      padding:12px 14px;margin-bottom:10px}
+    tbody td{border:0;padding:5px 0;display:flex;justify-content:space-between;
+      align-items:center;gap:12px}
+    tbody td::before{content:attr(data-label);color:var(--doux);font-size:12px;
+      text-transform:uppercase;letter-spacing:.06em;flex:0 0 auto}
+    tbody td.titre{display:block;padding-bottom:8px;border-bottom:1px solid var(--bord);
+      margin-bottom:6px}
+    tbody td.titre::before{content:""}
+    .titre{max-width:none}
+    .legende{margin-left:0;width:100%}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Diffusions</h1>
+  <p class="sous">Où en est chaque vidéo, réseau par réseau. Une case par réseau : publiée, à faire,
+    ou non suivie — pour voir d'un coup d'œil ce qui est sorti et ce qui reste.</p>
+  <div class="maj" id="maj">chargement…</div>
+  <div class="neuf" id="neuf" hidden></div>
+</header>
+<main>
+  <section class="cartes" id="cartes"></section>
+  <div class="barre">
+    <button class="puce" data-serie="toutes" aria-pressed="true">Tout</button>
+    <button class="puce" data-serie="ambiances" aria-pressed="false">La France en ambiances</button>
+    <button class="puce" data-serie="chloe" aria-pressed="false">Chloé la Fraise</button>
+    <button class="puce" data-serie="fruitville" aria-pressed="false">FruitVille</button>
+    <button class="puce" id="trous" aria-pressed="false">Seulement les trous</button>
+    <span class="legende" id="compte"></span>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Vidéo</th><th>Durée</th>
+        <th>YouTube</th><th>TikTok</th><th>Instagram</th><th>Facebook</th>
+      </tr>
+    </thead>
+    <tbody id="corps"></tbody>
+  </table>
+  <p class="pied">
+    <b>Comment lire.</b> « ✓ » suivi d'une date et d'un nombre de vues : la vidéo est en ligne, et ces
+    chiffres sont lus sur YouTube lui-même. Pour TikTok et Instagram, la coche vient des journaux de
+    publication locaux : elle prouve qu'une publication a eu lieu, mais la date n'y était pas
+    enregistrée, donc elle n'est pas affichée. « à faire » signale une vidéo qui existe et qui n'est
+    pas sortie sur ce réseau ; « — » veut dire que le réseau n'est pas suivi du tout. Facebook n'est
+    pas suivi. Cette page est figée au moment où je la régénère : elle ne se rafraîchit pas seule.
+  </p>
+</main>
+<script>
+const RESEAUX = ["youtube","tiktok","instagram","facebook"];
+const NOMS = {youtube:"YouTube", tiktok:"TikTok", instagram:"Instagram", facebook:"Facebook"};
+let DONNEES = {lignes:[], stats:{}, maj:""};
+let filtreSerie = "toutes", filtreTrous = false;
+
+const MOIS = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."];
+function dateCourt(yyyymmdd){
+  if(!yyyymmdd || yyyymmdd.length < 8) return "";
+  const a = +yyyymmdd.slice(0,4), m = +yyyymmdd.slice(4,6), j = +yyyymmdd.slice(6,8);
+  return j + " " + MOIS[m-1] + (a !== new Date().getFullYear() ? " " + a : "");
+}
+function duree(s){
+  if(!s || s <= 0) return "—";
+  if(s < 90) return s + " s";
+  const m = Math.floor(s/60), r = s % 60;
+  if(m < 60) return r ? m + " min " + String(r).padStart(2,"0") : m + " min";
+  return Math.floor(m/60) + " h " + String(m%60).padStart(2,"0");
+}
+function cellule(r, c){
+  if(!c || c.etat === "non_suivi") return '<span class="rien">—</span>';
+  if(c.etat === "publie"){
+    let html = '<span class="ok" title="publié">✓</span> ';
+    if(r === "youtube"){
+      const d = dateCourt(c.date), v = c.vues;
+      html = '<span class="ok"><a href="'+c.url+'" target="_blank" rel="noopener">✓</a></span> ';
+      if(d) html += '<span class="date">'+d+'</span> ';
+      if(v !== null && v !== undefined) html += '<span class="vues">· '+v.toLocaleString("fr-FR")+' vues</span>';
+    }
+    return html;
+  }
+  if(c.etat === "a_faire") return '<span class="badge faire">à faire</span>';
+  return '<span class="badge inconnu">?</span>';
+}
+function dessiner(){
+  const corps = document.getElementById("corps");
+  const lignes = DONNEES.lignes.filter(l =>
+    (filtreSerie === "toutes" || l.serie === filtreSerie) &&
+    (!filtreTrous || RESEAUX.some(r => (l.reseaux[r]||{}).etat === "a_faire")));
+  corps.innerHTML = lignes.map(l => {
+    const nom = (l.titre || "").replace(/</g,"&lt;");
+    return '<tr>' +
+      '<td class="titre"><b>'+nom+'</b><span class="serie">'+l.series_nom+
+        (l.region ? " · "+l.region : "") + (l.type ? " · "+l.type : "") + '</span></td>' +
+      '<td class="duree" data-label="Durée">'+duree(l.duree_s)+'</td>' +
+      RESEAUX.map(r => '<td class="cell" data-label="'+NOMS[r]+'">'+cellule(r, l.reseaux[r])+'</td>').join("") +
+      '</tr>';
+  }).join("");
+  document.getElementById("compte").textContent = lignes.length + " ligne" + (lignes.length>1?"s":"");
+}
+function cartes(){
+  const s = DONNEES.stats || {};
+  document.getElementById("cartes").innerHTML = RESEAUX.map(r => {
+    const d = s[r] || {publie:0, suivi:0, a_faire:0};
+    const pct = d.suivi ? Math.round(d.publie / d.suivi * 100) : 0;
+    let petit = d.suivi ? d.publie + " sur " + d.suivi + " · " + pct + " %" : "non suivi";
+    if(r === "youtube" && s.youtube && s.youtube.vues) petit += " · " + s.youtube.vues.toLocaleString("fr-FR") + " vues";
+    return '<div class="carte"><div class="nom">'+NOMS[r]+'</div>' +
+      '<div class="gros">'+d.publie+'</div><div class="petit">'+petit+'</div></div>';
+  }).join("");
+}
+document.querySelectorAll("[data-serie]").forEach(b => b.addEventListener("click", () => {
+  filtreSerie = b.dataset.serie;
+  document.querySelectorAll("[data-serie]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  dessiner();
+}));
+document.getElementById("trous").addEventListener("click", e => {
+  filtreTrous = !filtreTrous;
+  e.target.setAttribute("aria-pressed", filtreTrous);
+  dessiner();
+});
+function bandeau(){
+  const c = DONNEES.changements || {};
+  const pubs = c.nouvelles_publications || [];
+  const vids = c.nouvelles_videos || [];
+  const el = document.getElementById("neuf");
+  if(!pubs.length && !vids.length){ el.hidden = true; return; }
+  let html = "<b>Nouveau depuis la mise à jour précédente" + (c.depuis ? " ("+c.depuis+")" : "") + " :</b><ul>";
+  pubs.slice(0,6).forEach(p => {
+    html += "<li>" + p.titre.replace(/</g,"&lt;") + " — publiée sur " + NOMS[p.reseau] +
+            (p.date ? " le " + dateCourt(p.date) : "") + "</li>";
+  });
+  vids.slice(0,6).forEach(v => {
+    html += "<li>nouvelle vidéo détectée : " + v.titre.replace(/</g,"&lt;") + "</li>";
+  });
+  if(pubs.length + vids.length > 12) html += "<li>… et " + (pubs.length + vids.length - 12) + " autres</li>";
+  html += "</ul>";
+  el.innerHTML = html;
+  el.hidden = false;
+}
+fetch("diffusions.json", {cache:"no-store"}).then(r => r.json()).then(d => {
+  DONNEES = d;
+  document.getElementById("maj").textContent =
+    "Données rassemblées le " + dateCourt(d.maj.replace(/-/g,"")) +
+    " à " + (d.genere_le || "").slice(11) + " · " + d.lignes.length + " vidéos suivies";
+  cartes(); bandeau(); dessiner();
+}).catch(e => {
+  document.getElementById("maj").textContent = "données illisibles : " + e;
+});
+</script>
+</body>
+</html>
